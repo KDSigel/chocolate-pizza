@@ -51,3 +51,9 @@ header {
     font-size: 2rem;
    font-family: 'Yellowtail', cursive;
 }
+.recipe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(../assets/list-bg.png);
+    font-family: 'Mali', cursive;
+}
