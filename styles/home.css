@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
 /* add home page styles here */
 * {
     /* border: solid 2px black;   */
@@ -56,4 +59,38 @@ header {
     grid-template-columns: 1fr 1fr;
     background-image: url(../assets/list-bg.png);
     font-family: 'Mali', cursive;
+}
+.sub-head   {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+.date {
+    text-transform: uppercase;
+    font-size: .9rem;
+    line-height: .5;
+}
+.art-title {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: none;
+
+    
+}
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: .9rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: .5;
+}
+.article {
+    margin-top: 20px;
 }
