@@ -1,1 +1,53 @@
 /* add home page styles here */
+* {
+    /* border: solid 2px black;   */
+    box-sizing: border-box;
+
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 900px 1fr;
+}
+nav {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+nav > img {
+    height: 20px;
+    margin: 1px;
+}  
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px; 
+    align-content: center;
+}
+.top-left {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+.top-left > img {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    align-self: flex-end;
+   
+    
+}
+
+.best-food {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: .70rem;
+}
+.article > img {
+    width: 100%
+
+}
+.delicious {
+    font-size: 2rem;
+   font-family: 'Yellowtail', cursive;
+}
